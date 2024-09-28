@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo-Lourivan</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    
+    <div class="header">
+        <h1 id="name">Lourivan Lima</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="esq">          
+            <div class="contato">
+                    <img class="em" src="o-email.png" alt="Img">
+                    <P>Lourivan234@hotmail.com</P>
+                    <img class="tell" src="chamada-telefonica.png" alt="Img">
+                    <p>(16)99278-7204</p>
+                    <img class="local" src="placeholder.png" alt="Img">
+                    <p>Ibaté - SP</p>
+            </div>
+
+            <div class="separator"></div>
+            
+            <div class="habilidades">
+                <h2>Habilidades:</h2>
+                <p>Java - Básico</p>
+                <p>JavaScript - Básico</p>
+                <p>Python - Básico</p>
+                <p>MySQL - Básico</p>
+                <p>SQLServer - Básico</p>
+                <p>NodeJS - Básico</p>
+                <p>React - Básico</p>
+                <p>CSS - Básico</p>
+                <p>Orientação a objetos - Intermediario</p>
+                <p>HTML - Intermediario</p>
+                <p>Pacote Office - Intermediario</p>
+
+            </div>
+            <div class="separator"></div>
+        </div>
+        
+
+        <div class="dir">
+                    <div class="objetivo">
+                        <h2>Objetivo:</h2>
+                        <p>Estou em busca de uma oportunidade para ingressar no mercado de trabalho na área de tecnologia, 
+                            com o objetivo de aprimorar e aplicar meus conhecimentos em desenvolvimento backend, frontend e bancos de dados.
+                        </p>
+                    </div>
+                    
+                    <div class="forma">
+                        <h2>Formação:</h2>
+                        <h3 onclick="mostrarDetalhes('deta1', this)"> <span class="seta mexer">&#x25BC;</span> Montagem e manutenção de Computadores</h3>
+                        <div id="deta1" class="detalhes">
+                            <p>Cursado em Prepara Cursos - Ibaté (JANEIRO 2017 - OUTUBRO 2017)</p>
+                            <p class="bot">Desenvolvi sólidos conhecimentos em montagem e manutenção de computadores e domínio do pacote Office, incluindo Word, Excel e PowerPoint.</p>                        
+                        </div>
+
+                        <h3 onclick="mostrarDetalhes('deta2', this)"> <span class="seta mexer">&#x25BC;</span> Mecãnico de Usinagem</h3>
+                        <div id="deta2" class="detalhes">
+                            <p>Cursado em SENAI - São Carlos (JANEIRO 2018 - DEZEMBRO 2019)</p>
+                            <p class="bot">
+                                Alem de desenvolver habilidades interpessoais como etica profissional, proatividade e trabalho em equipe, 
+                                que é bastante trabalhado no SENAI, desenvolvi conhecimento em software CAD SolidWorks, maquinas industriais como 
+                                torno e frasadora convencionais e programação de maquinas CNC.
+                            </p>
+                        </div>
+
+                        <h3 onclick="mostrarDetalhes('deta3', this)"> <span class="seta mexer">&#x25BC;</span> Técnico em Mecatrônica</h3>
+                        <div id="deta3" class="detalhes">
+                            <p>Cursado em SENAI - São Carlos (JANEIRO 2020 - DEZEMBRO 2021)</p>
+                            <p class="bot">
+                                Aprimorei meus conhecimentos em programação de máquinas CNC, 
+                                desenvolvi habilidades no software CAD Inventor, programação de microcontroladores, 
+                                além de competências em elétrica, eletrônica e programação ladder para CLPs.
+                            </p>
+                        </div>
+
+                        <h3 onclick="mostrarDetalhes('deta4', this)"> <span class="seta mexer">&#x25BC;</span> Ciências da Computação</h3>
+                        <div id="deta4" class="detalhes">
+                            <p>Cursado em UNIP - Araraquara (AGOSTO 2022 - Cursando)</p>
+                            <p class="bot">
+                                Nesse período de curso fui adquirindo algumas habilidades 
+                                básicas em programação estruturada com Python, programação orientada a objeto com JAVA, 
+                                banco de dados MySQL e front-end com HTML e CSS.
+                            </p>
+                        </div>
+
+                    </div>
+                
+                    <div class="exp">
+                        <h2>Experiência profissional:</h2>
+                        <h3 onclick="mostrarDetalhes('det1', this)"> <span class="seta mexer">&#x25BC;</span> Menor aprendiz Raízen</h3>
+                        <div id="det1" class="detalhes">
+                            <p>Empresa Raízen (JANEIRO 2020 - DEZEMBRO 2021)</p>
+                            <p class="bot">Menor aprendiz na em empresa Raízen filiado ao curso de Mecânico de Usinagem no SENAI.</p>
+                        </div>
+
+                        <h3 onclick="mostrarDetalhes('det2', this)"> <span class="seta mexer">&#x25BC;</span> Menor aprendiz Jundu</h3>
+                        <div id="det2" class="detalhes">
+                            <p>Empresa Jundu Mineração (JANEIRO 2018 - DEZEMBRO 2019)</p>
+                            <p class="bot">Menor aprendiz na empresa Jundu filiado ao curso Técnico de Mecatrônica no SENAI</p>
+                        </div>
+
+                        <h3 onclick="mostrarDetalhes('det3', this)"> <span class="seta mexer">&#x25BC;</span> Programador e Operador CNC</h3>
+                        <div id="det3" class="detalhes">
+                            <p>Empresa Ideal Ferramentaria (MARÇO 2021 - OUTUBRO 2022)</p>
+                            <p class="bot">Era responsável por programar e operar um centro de usinagem através do software CAM PowerMill. Na Ideal adquiri experiência com desenhos 2D e 3D no Solidworks.</p>
+                        </div>
+
+                        <h3 onclick="mostrarDetalhes('det4', this)"> <span class="seta mexer">&#x25BC;</span> Desenhista Projetista</h3>
+                        <div id="det4" class="detalhes">
+                            <p>Empresa NSF TECNOLOGIA EM INSTALAÇÕES COMERCIAS (OUTUBRO 2022 - JULHO 2024)</p>
+                            <p>
+                                Eu era responsável por projetar e desenhar equipamentos da linha seca utilizando o software CAD Inventor. 
+                                Posteriormente, optei por mudar de cargo para Analista de Cadastro, 
+                                onde atuei no cadastramento de equipamentos e ofereci suporte ao sistema WBC, 
+                                responsável pelo gerenciamento desses cadastros. Nesse período, 
+                                também realizei pequenos projetos envolvendo layouts em HTML e CSS, 
+                                além de consultas e operações em banco de dados utilizando SQLServer.
+                            </p>
+                        </div>
+
+                        <h3 onclick="mostrarDetalhes('det5', this)"> <span class="seta mexer">&#x25BC;</span> Técnico de Telecomunicação</h3>
+                        <div id="det5" class="detalhes">
+                            <p>Empresa Desktop (AGOSTO 2024 - Atual)</p>
+                            <p>Fui responsável pelo suporte técnico à infraestrutura de rede, garantindo a instalação, 
+                                manutenção e monitoramento eficiente das conexões de internet nas instalações.</p>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+
+<script>
+    function mostrarDetalhes(id, element) {
+        const detalhes = document.getElementById(id);
+        const seta = element.querySelector('.seta');
+
+        if (detalhes.style.display === 'none' || detalhes.style.display === '') {
+            detalhes.style.display = 'block';
+            seta.classList.add('rotacionado');
+            seta.classList.remove('mexer');
+        } else {
+            detalhes.style.display = 'none';
+            seta.classList.remove('rotacionado');
+            seta.classList.add('mexer');
+        }
+    }
+</script>
+
+
+
+</body>
+</html>

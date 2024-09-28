@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Quicksand", sans-serif;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(118, 141, 141);
+  padding-top: 20px;
+  padding-left: 500px;
+  z-index: 1;
+  position: absolute;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.esq {
+  margin-left: 20px;
+  width: 250px;
+  height: 1500px;
+  background-color: rgb(59, 70, 70);
+  z-index: 1;
+}
+
+.dir {
+  margin-left: 325px;
+  margin-top: 100px;
+  position: absolute;
+  width: 300px;
+  height: 100%;
+}
+
+.contato, .endereco, .habilidades {
+  padding: 10px;
+  color: #ffffff;
+}
+
+.contato {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.habilidades {
+  text-align: center;
+}
+.habilidades p {
+  text-align: left;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.objetivo {
+  padding-top: 50px;
+  width: 600px;
+  z-index: 1;
+}
+
+.exp, .forma {
+  padding-top: 50px;
+  width: 600px;
+}
+.exp h2, .forma h2 {
+  padding-bottom: 10px;
+}
+.exp h3, .forma h3 {
+  cursor: pointer;
+}
+.exp p, .forma p {
+  padding-left: 20px;
+}
+.exp .bot, .forma .bot {
+  padding-bottom: 20px;
+}
+
+.em, .tell, .local {
+  width: 30px;
+  padding-top: 20px;
+}
+
+.separator {
+  border-top: 2px solid white;
+  margin: 20px 0;
+}
+
+.detalhes {
+  display: none;
+}
+
+@keyframes mexer-seta {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+h3:hover .seta.mexer {
+  animation: mexer-seta 0.6s infinite;
+}
+
+.seta {
+  display: inline-block;
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+.rotacionado {
+  transform: rotate(-90deg);
+}/*# sourceMappingURL=style.css.map */
